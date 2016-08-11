@@ -1,0 +1,336 @@
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #91c7a4; 
+  background: -webkit-linear-gradient(right, #91c7a4, #6f9cc2);
+  background: -moz-linear-gradient(right, #91c7a4, #6f9cc2);
+  background: -o-linear-gradient(right, #91c7a4, #6f9cc2);
+  background:linear-gradient(to left, #91c7a4, #6f9cc2);  
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 18px;
+}
+
+.myprojects a {
+  color: black;
+}
+
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+.separator {
+  margin:20px 0;
+  display: block;
+  position: relative;
+  background-color: transparent;
+  height: 1px;
+}
+#homepage {
+  background: #91c7a4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #91c7a4, #6f9cc2);
+  background: -moz-linear-gradient(right, #91c7a4, #6f9cc2);
+  background: -o-linear-gradient(right, #91c7a4, #6f9cc2);
+  background:linear-gradient(to left, #91c7a4, #6f9cc2);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.dt-icons {
+  font-size:33px;color:white;margin:10px;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+
+.fa-btn {
+  margin-right:10px;
+}
+.bigbutton {
+  padding:20px 80px; background-color:yellow; display:inline-block;
+}
+
+#myavatar {
+  width:400px;height:400px;display:inline-block;margin-top:60px;
+}
+
+
+/************************************ What can I do section (start) ************************************/
+.skills {
+  background-color:#fff;
+  padding:7px 16px;
+  color:#000;
+  border-radius: 5px;
+  line-height: 20px;
+  font-size: 14px;
+  display: inline-block;
+  word-break:keep-all;
+  font-family:Consolas,Monaco,Lucida Console;
+}
+
+#skills-console {
+  background-color:black; padding:40px; border-radius:10px;width:100%; height:220px; overflow: auto;
+}
+
+/************************************ What can I do section (end) ************************************/
+
+/************************************ Bubbles (start) ************************************/
+
+/*bubbles */
+/*
+#box {
+    width: 950px;
+    height: 350px;
+    border: 5px black solid;
+    overflow: hidden;
+    background-color: #F2F2F2;
+}*/
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 3.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+#contentContainer {
+    position: relative;
+}
+.thing {
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #0066CC;
+    opacity: .5;
+}
+
+#mykite {
+   animation: flying 10s infinite;
+}
+
+@keyframes flying {
+    0% {
+        transform: translate3d(-50px, 50px, 0px);
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+       transform: rotate(-35deg) translate3d(50px, -30px, 0px);
+       animation-timing-function: ease-in-out;
+    }
+    20% {
+       transform: rotate(-15deg) translate3d(-120px, -150px, 0px);
+       animation-timing-function: linear;
+    }
+    30% {
+      transform: translate3d(-250px, -200px, 0px) rotate(-45deg) ;
+      animation-timing-function: ease-in;
+    }
+    40% {
+      transform: translate3d(-400px, -250px, 0px) rotate(-320deg);
+      animation-timing-function: ease-out;
+    }
+    50% {
+       transform: translate3d(-600px, -250px, 0px);
+       animation-timing-function: ease-in;
+    }
+    60% {
+       transform: translate3d(-800px, 50px, 0px) rotate(-120deg);
+       /*animation-timing-function: ease;*/
+       /*animation-timing-function: ease-in;*/
+    }
+    70% {
+       transform: translate3d(-950px, -50px, 0px) rotate(-15deg);
+        /*animation-timing-function: ease-in-out;*/
+       /*animation-timing-function: ease-in;*/
+    }
+    80% {
+       transform: translate3d(-1050px, -120px, 0px) rotate(-35deg);
+        /*animation-timing-function: ease-in-out;*/
+       /*animation-timing-function: ease-in;*/
+    }
+    90% {
+       transform: translate3d(-1150px, -180px, 0px) rotate(-55deg);
+        animation-timing-function: ease-in-out;
+       /*animation-timing-function: ease-in;*/
+    }
+    /*40% {
+      transform: rotate(-35deg) translate3d(-350px, -240px, 0px);
+      animation-timing-function: ease-in;
+    }
+    50% {
+      transform: translate3d(-550px, -280px, 0px) rotate(30deg);
+      animation-timing-function: ease-in;
+    }
+    60% {
+      transform: translate3d(-700px, -300px, 0px) rotate(-45deg);
+      animation-timing-function: ease-in;
+    }
+    70% {
+      transform: rotate(-25deg) translate3d(-760px, -320px, 0px);
+      animation-timing-function: ease-in;
+    }
+    80% {
+      transform: rotate(-15deg) translate3d(-950px, -400px, 0px) ;
+    }
+    90% {
+      transform: translate3d(-1100px, -350px, 0px) rotate(40deg);
+    }*/
+    100% {
+      transform: translate3d(-1300px, -250px, 0px) rotate(-15deg);
+    }
+
+}
+
+/************************************ Bubbles (end) ************************************/
+
+
+
+/* -------------------------- All Projects (start) -------------------------- */
+
+#circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+/*#mix-blend * {
+  margin: 0;
+}
+*/
+#mix-blend #multp * {
+  mix-blend-mode: multiply;
+}
+
+#mix-blend .result * {
+  position: absolute;
+}
+
+#mix-blend .color {
+  /*background-image: linear-gradient(45deg, #0FFFCB 50%, #FA023C 50%);*/
+  background-image: url('http://localhost/myportfolio/public/img/circle.png');
+  background-size: cover;
+}
+
+#mix-blend img,
+#mix-blend .color,
+#mix-blend .result {
+  display: inline-block;
+  width: 280px;
+  height: 280px;
+  margin-left: -90px;
+}
+
+#mix-blend > * {
+  margin: 10px;
+}
+
+#browser-support {
+  background: ivory;
+  border-left: 6px skyblue solid;
+  font-family: courier new;
+  font-size: 14px;
+  margin: 12px 0;
+  padding: 6px;
+}
+
+.title {
+  letter-spacing: -18px;
+  font-size: 120px;
+  padding: 20px;
+  margin: 50px 10px;
+  line-height: 0;
+}
+
+#funword > span:first-child {
+  color: #5f0f6d;
+  position: relative;
+  z-index: 100;
+}
+#funword > span:nth-child(2) {
+  color: #50af91;
+}
+#funword > span:nth-child(3) {
+  color: #b6f400;
+}
+#funword > span:nth-child(4) {
+  color: #4285f4;
+  position: relative;
+  z-index: 100;
+}
+#funword > span:nth-child(5) {
+  color: #1d51a7; 
+}
+#funword > span:nth-child(6) {
+  color: #559f00;
+}
+#funword > span:nth-child(7) {
+  color: #5f0f6d;
+}
+#funword > span:nth-child(8) {
+  color: #50af91;
+}
+
+#funword > span {
+  mix-blend-mode: multiply;
+}
+
+.pagecontent {
+  background:rgb(234, 242, 243);
+}
+
+
+
+/************************************ Responsive CSS (start) ************************************/
+
+@media only screen and (max-width: 480px){
+  .skills {
+    padding: 4px 6px;
+    font-size: 13px;
+  }
+
+  #myavatar {
+    width:200px;height:200px;margin-top:100px;
+  }
+
+  .title {
+    font-size: 105px;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .navbar-default {
+    background-color: transparent!important;
+    border-color: transparent!important;
+  }
+}
+
+/************************************ Responsive CSS (end) ************************************/
