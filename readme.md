@@ -1,3 +1,3 @@
-# Laravel Quickstart - Basic
+# My Portfolio 
 
-http://laravel.com/docs/quickstart
+This is a portfolio website to showcase my projects

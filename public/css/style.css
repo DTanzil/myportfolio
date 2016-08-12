@@ -15,6 +15,10 @@ html, body {
   color: black;
 }
 
+a.mybutton:hover {
+  text-decoration: none;
+  color:#27565a;
+}
 .pad-section {
   padding: 50px 0;
 }
@@ -323,6 +327,10 @@ footer .glyphicon:hover {
 
   .title {
     font-size: 105px;
+  }
+
+  .bigbutton {
+    padding: 20px 40px;
   }
 }
 

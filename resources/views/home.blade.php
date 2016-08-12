@@ -80,15 +80,16 @@
         
         <div class="row">
           <div class="col-lg-2"></div>
-          <div class="col-lg-8 col-md-12 col-sm-12" style="background:#31b7ea;border-radius:10px;padding:10px;">
-            <span class="myprojects"><a href="{{ route('allprojects') }}">
+          <div class="col-lg-8 col-md-12 col-sm-12 myprojects" style="background:#31b7ea;border-radius:10px;padding:10px;">
+            <a class="mybutton" href="{{ route('allprojects') }}"><span>
               <i class="fa fa-btn fa-file-code-o" aria-hidden="true"></i>
               <i class="fa fa-btn fa-file-code-o" aria-hidden="true"></i>
               <i class="fa fa-btn fa-file-code-o" aria-hidden="true"></i>
 
               <br/>
-              <b>Check Out Some Projects I Worked On Here!</b></a>
+              <b>Check Out Some Projects I Worked On Here!</b>
             </span>
+            </a>
           </div>
           <div class="col-lg-2"></div>
         </div>
