@@ -9,6 +9,7 @@ html, body {
   background:linear-gradient(to left, #91c7a4, #6f9cc2);  
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 18px;
+  overflow-x:hidden;
 }
 
 .myprojects a {
@@ -311,7 +312,9 @@ footer .glyphicon:hover {
   background:rgb(234, 242, 243);
 }
 
-
+.prjimg {
+  border:3px solid #ddd; box-shadow: 0 0 20px rgba(0,0,0,0.6); margin-bottom:20px;
+}
 
 /************************************ Responsive CSS (start) ************************************/
 
@@ -338,6 +341,12 @@ footer .glyphicon:hover {
   .navbar-default {
     background-color: transparent!important;
     border-color: transparent!important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .pad-section img {
+    width: 50%;
   }
 }
 
