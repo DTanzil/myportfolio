@@ -275,6 +275,9 @@ footer .glyphicon:hover {
   line-height: 0;
 }
 
+#funword {
+  margin-left: -10px;
+}
 #funword > span:first-child {
   color: #5f0f6d;
   position: relative;

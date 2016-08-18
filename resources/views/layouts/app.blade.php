@@ -6,11 +6,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Portfolio website of Dania Tanzil, showcasing all recent projects" />
+
     <title>Dania Tanzil</title>    
     <!-- Styles -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:700' rel='stylesheet' type='text/css'>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+    <link rel='icon' href="{{ URL::asset('favicon.ico') }}" type='image/x-icon'/ >
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}" />
 </head>
 

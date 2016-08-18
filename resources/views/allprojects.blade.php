@@ -24,11 +24,10 @@
                 <div class="col-lg-4 col-md-4 col-sm-12" style="margin-bottom:60px;">
                     <div id="mix-blend" style="text-align:center;" >
                         <div id="multp" class="result">   
-                        <span class="color"></span>  
-                            <img id="circle" src="{{ asset($file->main_image) }}"/>
-                            
-                            <!-- <h3 style="position:relative;"><a href="{{ route('viewproject') }}/{{ $key }}">| {{ $file->title }} |</a></h3> -->
-
+                            <a href="{{ route('viewproject') }}/{{ $key }}">
+                                <span class="color"></span>  
+                                <img id="circle" src="{{ asset($file->main_image) }}"/>
+                            </a>
                         </div>
                     </div>
                     <h3 class="text-center aleg"><a href="{{ route('viewproject') }}/{{ $key }}">| {{ $file->title }} |</a></h3>
